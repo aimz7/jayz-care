@@ -1,0 +1,3 @@
+JayZ Care has not selected an open-source license yet.
+
+Do not add an MIT or other license unless you intentionally want to grant others the permissions described by that license. Without a license, the code remains subject to applicable copyright law.

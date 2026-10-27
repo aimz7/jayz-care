@@ -1,0 +1,21 @@
+JAYZ CARE — GITHUB FILES
+
+This package contains supporting repository files. It intentionally does NOT include app.py, because your existing JayZ Care v0.2 app.py must be preserved.
+
+Expected repository structure:
+
+jayz-care/
+├── app.py                         (your existing v0.2 application)
+├── requirements.txt               (check/merge dependencies; don't blindly overwrite)
+├── README.md
+├── .gitignore
+└── .streamlit/
+    └── config.toml
+
+Before uploading:
+1. Keep your working v0.2 app.py.
+2. Compare the included requirements.txt with your current requirements.txt. If your app uses packages beyond Streamlit, keep those dependencies too.
+3. Upload README.md and .gitignore to the repository root.
+4. Upload config.toml inside a folder named .streamlit.
+5. Do not upload .env, secrets.toml, API keys, passwords, or patient data.
+6. The main file path in Streamlit Community Cloud should be app.py if your application file is named app.py.
